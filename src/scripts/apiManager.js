@@ -14,8 +14,8 @@ const parksCall = () => {
         .then(response => response.json())
         .then(parsed => console.log(parsed))
 
-    parsed.forEach(park => {
-        displayInfo.innerHTML = key.name
+    parsed.forEach(parkName => {
+        
     })
 }
 
